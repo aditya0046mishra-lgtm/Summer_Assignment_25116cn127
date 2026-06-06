@@ -8,8 +8,11 @@ int main(){
         for(int j=1;j<=n-i;j++){
             cout<<" ";
         }
-        for(int j=1;j<=2*i-1;j++){
-            cout<<"*";
+        for(char ch = 'A';ch<'A'+i;ch++){
+            cout<<ch;
+        }
+        for(char ch = 'A'+i-2;ch>='A';ch--){
+            cout<<ch;
         }
         cout<<endl;
     }
